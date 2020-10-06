@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Sign Up Today!</h1>
+        <!-- Form -->
+        <form action="" id="form">
+           <div class="form-group">
+               <label for="name">Full Name</label>
+               <input type="text" id="name" placeholder="Full Name">
+           </div>
+           <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="555-555-5555">
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="email@address.com">
+        </div>
+        <div class="form-group">
+            <label for="website">website URL</label>
+            <input type="url" id="website" placeholder="https://xyz.com">
+        </div>
+        <div class="form-group">
+            <label for="password1">Password</label>
+            <input type="password" id="password1" placeholder="Enter Password">
+        </div>
+        <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password2" placeholder="Confirm Password">
+        </div>
+        <button type="submit">Register</button>
+        </form>
+        <!-- Error/Success message -->
+        <div class="message-container">
+            <h3 id="message">Don't Hesitate</h3>
+        </div>
+    </div>
+
+
+
     <!-- Script -->
     <script src="script.js"></script>
 </body>
